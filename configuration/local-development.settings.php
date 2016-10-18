@@ -4,7 +4,7 @@
  * Local development environment settings.
  */
 
-$conf['theme_debug'] = TRUE;
+//$conf['theme_debug'] = TRUE;
 
 /**
  * Options for the mail_redirect module.
