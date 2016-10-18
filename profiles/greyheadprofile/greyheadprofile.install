@@ -16,7 +16,7 @@ function greyheadprofile_install() {
   features_revert();
 
   // Set the default theme to greyhead_bootstrap.
-  $default_theme = 'greyhead_bootstrap';
+  $default_theme = 'greyhead_bootstrap_subtheme';
   theme_enable(array($default_theme));
   variable_set('theme_default', $default_theme);
   module_disable(array('bartik'));
