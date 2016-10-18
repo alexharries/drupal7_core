@@ -21,7 +21,7 @@ if (!(strtok($_SERVER['REQUEST_URI'],'?') == '/install.php') && (!isset($databas
             'username' => '',
             'password' => '',
             'host' => '127.0.0.1',
-            'port' => '',
+            'port' => '3306',
             'driver' => 'mysql',
             'prefix' => '',
           ),
